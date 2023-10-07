@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + .5rem);
+  box-sizing: inherit;
+
+  color: white;
+}
+  /*   const imageURL = dataM.data[ChampionName[0].value].image.full;
+    imageElement.src = imageURL;
+    console.log(imageURL); */
+.container {
+  height: 100vh;
+  background-color: rgb(22, 20, 20);
+}
+.app-container{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  padding: 40px 0;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  border-radius: 20px;
+  background-color: hsl(242, 28%, 22%);
+  height: 700px;
+  text-align: center;
+}
+.app-container input {
+  border-radius: 15px;
+  padding: 10px;
+  width: 50%;
+  color: black;
+  outline: none;
+  border: none;
+}
+.app-container button {
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  color: black;
+}
+img {
+ width: 400px;
+ border-radius: 20px;
+}
+.data-container {
+  display: flex;
+  margin: 40px auto;
+  justify-content: space-around;
+}
+.flexo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-around;
+  
+}
+
+.lore {
+  text-align: left;
+  position: absolute;
+  margin: 0 20px;
+  font-size: 30px;
+  bottom: 50px;
+  text-justify: distribute;
+}
+span {
+  display: block;
+  font-size: 30px;
+  margin: 20px 0;
+}
