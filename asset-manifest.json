@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/League_API/static/css/main.0e2daa46.css",
+    "main.js": "/League_API/static/js/main.6269da8c.js",
+    "index.html": "/League_API/index.html",
+    "main.0e2daa46.css.map": "/League_API/static/css/main.0e2daa46.css.map",
+    "main.6269da8c.js.map": "/League_API/static/js/main.6269da8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e2daa46.css",
+    "static/js/main.6269da8c.js"
+  ]
+}
